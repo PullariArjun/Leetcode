@@ -1,0 +1,1 @@
+by travarsing oppisite direction nothing but right, root, left we can solve this
