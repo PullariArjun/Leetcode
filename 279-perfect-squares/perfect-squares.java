@@ -4,13 +4,11 @@ class Solution {
         if(n == 4)return 1;
         int dp[] = new int[n+1];
         dp[1] = 1;
-        dp[2] = 2;
-        dp[3] = 3;
-        dp[4] = 1;
+       
         for(int i = 1; i*i <= n; i++){
             dp[i*i] = 1;
         }
-        for(int i = 5; i <= n; i++){
+        for(int i = 2; i <= n; i++){
             if(dp[i] == 1)continue;
             // int x = (int)Math.sqrt(i);
             int min = Integer.MAX_VALUE;
