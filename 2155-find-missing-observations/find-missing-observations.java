@@ -6,7 +6,7 @@ class Solution {
         int x = (mean * (n + rolls.length)) - sum;
         if(n * 6 < x || x < n)return new int[0];
         int ans[] = new int[n];
-        System.out.println(x);
+        // System.out.println(x);
         Arrays.fill(ans, 1);
         x -=  n;
         int i = 0;
